@@ -1,0 +1,122 @@
+/*body*/
+body{
+    background-color: #DCDCDC;
+}
+
+/*navigation bar*/
+.navbar{
+    padding: 10px;
+    background-color: #FFFAF0;
+    font-size: 15px;
+}
+
+.navbar-brand{
+    color: black;
+    margin-left: 35px;
+    padding: 15px;
+    font-weight: bold;
+    padding: 0;
+    border-width: thin;
+    background-color: #DCDCDC;
+    font-size: 30px;
+}
+
+
+/*images*/
+img{
+    width:100%;
+    height:100%;
+}
+
+.visualization{
+    width: 75%;
+    height:75%;
+    float: left;
+}
+
+#nofloat{
+    width: 600px;
+    height: 500px;
+    float: none;
+}
+
+#comparison{
+    width: 600px;
+    height: 500px;
+    float: none;
+}
+
+
+/*paragraph*/
+
+.title{
+    color: #A9A9A9;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+#comparagraph{
+    text-align: left;
+}
+
+#comptitle{
+    margin-top: 0px;
+    color: blue;
+    text-align: center;
+}
+
+#comptitle1{
+    margin-top: 25px;
+    color: blue;
+    text-align: center;
+}
+
+/*container*/
+.box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px 40px 40px;
+    color: black;
+    background-color: white;
+}
+
+.box1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px 40px 60px;
+    color: black;
+    background-color: white; 
+}
+
+
+
+/* Media */
+@media (max-width: 600px){
+    .navbar-expand-lg{
+    padding: 0;
+    }
+    .navbar{
+      max-height: none; 
+      padding: inherit;
+    }
+    .navbar div{
+      margin: inherit; 
+      background-color: white;  
+    }
+    .navbar-brand{
+      padding: 10px; 
+    }
+    .visualization{
+        width: auto;
+        height: auto;
+    }
+    #nofloat{
+        width: auto;
+        height: auto;
+    }
+
+   
+   }
